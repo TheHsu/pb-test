@@ -1,0 +1,119 @@
+
+/*general*/
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    /*left to right default in terms of specificity - a fail safe mechanism in case specific font styles has not been installed by the client*/
+}
+/*content CSS*/
+.top-container{
+    position: relative;
+    background-color:powderblue;
+    padding-top:100px;
+    margin-bottom:0;
+}
+.middle-container{
+line-height: 1.5;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    color:#11999E;
+    padding:50px 25px;
+    font-size: 18px;
+}
+/*format CSS*/
+.ent{
+    text-decoration: underline;
+}
+
+h1{
+    color:#66BFBF;
+    margin: 0 auto;
+    width:30%;
+    font-family: 'Sacramento', cursive;
+    font-size: 100px;
+    transition:color 1.8s;
+}
+h1:hover{
+    color:lemonchiffon;
+}
+h2{
+    font-family: 'Sacramento', cursive;
+    font-size:75px;
+    margin:25px auto 25px auto;
+}
+h3{
+    
+    font-size:25px;
+
+}
+
+hr{
+    border-style: none;
+    height: 2px;
+    width:5%;
+    border-top: 10px dotted lightgrey;
+}
+p{
+    color:#40514E;
+
+}
+
+
+/*Image Item CSS*/
+.bottom-cloud{
+    position: absolute;
+    left:300px;
+    bottom:300px;
+    
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+#hsu-grey{
+    width:20rem;
+    margin:100px auto auto auto;
+}
+.Badminton{
+    width:30rem;
+    margin:auto;
+   
+    border:10px groove darkslategray;
+}
+.Saxophone{
+    width:30rem;
+    margin:auto;
+    border:10px groove darkslategray;
+}
+
+/*id CSS*/
+#storyteller{
+    font-size: 33px;
+}
+#credits{
+    color: #e0ffff;
+}
+#closing-words{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*Button Function*/
+.BUTTON_BNZ {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 30px;
+    background-color: #66BFBF;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
